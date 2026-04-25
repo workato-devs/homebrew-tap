@@ -1,7 +1,7 @@
 class RecipeLint < Formula
   desc "Workato recipe linter — deterministic validation for wk lint"
   homepage "https://github.com/workato-devs/wk-lint-beta"
-  version "0.0.0"
+  version "1.0.0-rc4"
   license "MIT"
 
   on_macos do
