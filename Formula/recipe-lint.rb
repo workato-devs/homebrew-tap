@@ -29,11 +29,7 @@ class RecipeLint < Formula
     bin.install_symlink libexec/"recipe-lint"
   end
 
-  def post_install
-    system bin/"recipe-lint", "--version" rescue nil
-  end
-
   test do
-    assert_match version.to_s, shell_output("#{bin}/recipe-lint --version")
+    pipe_output(bin/"recipe-lint", '{"jsonrpc":"2.0","id":1,"method":"shutdown"}', 0)
   end
 end
