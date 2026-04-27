@@ -1,7 +1,7 @@
 class Wk < Formula
   desc "Workato CLI — workspace operations, recipe management, and plugin system"
   homepage "https://github.com/workato-devs/wk-cli-beta"
-  version "1.0.0-rc6"
+  version "1.0.0-beta"
   license "MIT"
 
   on_macos do
