@@ -7,7 +7,7 @@ class Wk < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk-cli-beta/releases/download/v#{version}/wk_#{version}_Darwin_arm64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "cdb456b190117ec9118f96cb90c7b512cd073b776592885fea71b545dee9a10d"
     else
       url "https://github.com/workato-devs/wk-cli-beta/releases/download/v#{version}/wk_#{version}_Darwin_amd64.tar.gz"
       sha256 "PLACEHOLDER"
@@ -17,7 +17,7 @@ class Wk < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk-cli-beta/releases/download/v#{version}/wk_#{version}_Linux_arm64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "90a748e47add413888312e005886544ce6de8f1097ef9b2a11110422db21c020"
     else
       url "https://github.com/workato-devs/wk-cli-beta/releases/download/v#{version}/wk_#{version}_Linux_amd64.tar.gz"
       sha256 "PLACEHOLDER"
