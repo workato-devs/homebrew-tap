@@ -6,20 +6,20 @@ class RecipeLint < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint-darwin-arm64.tar.gz"
+      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Darwin_arm64.tar.gz"
       sha256 "PLACEHOLDER"
     else
-      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint-darwin-amd64.tar.gz"
+      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Darwin_amd64.tar.gz"
       sha256 "PLACEHOLDER"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint-linux-arm64.tar.gz"
+      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Linux_arm64.tar.gz"
       sha256 "PLACEHOLDER"
     else
-      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint-linux-amd64.tar.gz"
+      url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Linux_amd64.tar.gz"
       sha256 "PLACEHOLDER"
     end
   end
