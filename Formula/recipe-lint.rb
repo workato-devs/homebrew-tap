@@ -7,7 +7,7 @@ class RecipeLint < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Darwin_arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "48aa87dec87a12e99c6b98a80564399227b6f6f51250fd418d57316e093c77ca"
     else
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Darwin_amd64.tar.gz"
       sha256 "PLACEHOLDER"
@@ -17,7 +17,7 @@ class RecipeLint < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Linux_arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "4d49bb08338e540b20c8789623aa2080a8a1ba3b3cd034441d054645903cfb30"
     else
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Linux_amd64.tar.gz"
       sha256 "PLACEHOLDER"
