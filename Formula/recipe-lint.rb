@@ -1,13 +1,13 @@
 class RecipeLint < Formula
   desc "Workato recipe linter — deterministic validation for wk lint"
   homepage "https://github.com/workato-devs/wk-lint-beta"
-  version "1.0.1-beta"
+  version "1.0.2-beta"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Darwin_arm64.tar.gz"
-      sha256 "02785f6552ad224da894e954c7ed4fa8c5445e116a8757e0884fe50385d01f1c"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     else
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Darwin_amd64.tar.gz"
       sha256 "PLACEHOLDER"
@@ -17,7 +17,7 @@ class RecipeLint < Formula
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Linux_arm64.tar.gz"
-      sha256 "ef5e170bc620b4f2c05ae70b8e4e7eec490563b3f20a6466f856431d91f19367"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     else
       url "https://github.com/workato-devs/wk-lint-beta/releases/download/v#{version}/recipe-lint_#{version}_Linux_amd64.tar.gz"
       sha256 "PLACEHOLDER"
