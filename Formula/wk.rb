@@ -7,20 +7,20 @@ class Wk < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Darwin_arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "4a0a15594cfb8dbe8bc7b7740c5b3c562f8a125b48f844d572c07e659fd0e320"
     else
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "d2743a6e211a9eaeef1b1e063f3de915ecbe637a6b05cdaf18dc1c23bc70e5a7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Linux_arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "2d0320b7c8b8ab6ec8f5f37c210a2726f9c395d1f71b24cea6b1dd3b0340c34e"
     else
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Linux_x86_64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "d9d51beb2088a0e05d04610177087dae5d804a4478b3c0ccebb1f9e7833ca7fe"
     end
   end
 
