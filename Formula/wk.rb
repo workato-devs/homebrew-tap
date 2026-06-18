@@ -1,26 +1,26 @@
 class Wk < Formula
   desc "Workato CLI — workspace operations, recipe management, and plugin system"
   homepage "https://github.com/workato-devs/wk"
-  version "1.0.5-beta"
+  version "1.0.6-beta"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Darwin_arm64.tar.gz"
-      sha256 "a4cc60281232d2c0a143afdd6b6feea7d81e4d3ba646228a495d71502151f671"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     else
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Linux_arm64.tar.gz"
-      sha256 "a3b697e5e073a449e6e0fccb5fff6ea7a822111b56b2b9d8b40f2ff80412152c"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     else
       url "https://github.com/workato-devs/wk/releases/download/v#{version}/wk_#{version}_Linux_x86_64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     end
   end
 
